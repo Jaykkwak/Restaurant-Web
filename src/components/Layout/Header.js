@@ -10,7 +10,9 @@ const Header = () => {
             <h1>ReactMeals</h1>
             <button>Cart</button>
         </head>
-        <img className={classes['main-image']} src={MealImg} alt='Meal Image'/>
+        <div className={classes['main-image']}>
+            <img src={MealImg} alt='Meal Image'/> 
+        </div>
     </Fragment>
   )
 }
