@@ -4,12 +4,12 @@ import classes from './Header.module.css'
 import MealImg from '../Img/meals.jpg'
 import HeaderCartButton from './HeaderCartButton'
 
-const Header = () => {
+const Header = (props) => {
   return (
     <Fragment>
         <head className={classes.header}>
             <h1>ReactMeals</h1>
-            <HeaderCartButton />
+            <HeaderCartButton onClick={props.onClick}/>
         </head>
         <div className={classes['main-image']}>
             <img src={MealImg} alt='Meal Image'/> 
