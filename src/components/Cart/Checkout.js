@@ -49,11 +49,11 @@ const Checkout = (props) => {
     }
 
     props.onConfirm({
-        name: enteredName,
-        street: enteredStreet,
-        cirt: enteredCity,
-        postalCode: enteredCity
-    })
+      name: enteredName,
+      street: enteredStreet,
+      cirt: enteredCity,
+      postalCode: enteredCity,
+    });
   };
 
   const nameControlClasses = `${classes.control} ${
