@@ -39,7 +39,6 @@ const Cart = (props) => {
             user: userData,
             orderedItems: cartCtx.items,
           }),
-          //Cart reset
         }
       );
       setIsSubmitting(false);
